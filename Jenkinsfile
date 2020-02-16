@@ -1,7 +1,7 @@
 pipeline {
     agent {
         docker {
-            image "ruby"
+            image 
         }
     }
     stages {
@@ -9,11 +9,7 @@ pipeline {
             steps {
                 sh "bundle install'"
             }
-        }
-    stage("Tests") {
-        steps {
-            sh "echo 'simulando um teste automatizado'"
-            }
+
         }
     }
 }
