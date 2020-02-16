@@ -1,0 +1,6 @@
+log/*.html
+log/*.json
+log/*screenshot
+*.html
+*.jpg
+*.png
